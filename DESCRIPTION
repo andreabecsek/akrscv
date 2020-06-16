@@ -1,0 +1,12 @@
+Package: akrscv
+Type: Package
+Title: Cross Validation for Adaptive Kernel Smoothing Regression
+Version: 1.0
+Date: 2020-06-16
+Author: Andrea Becsek
+Maintainer: Andrea Becsek <andrea.becsek@bristol.ac.uk>
+Description: The package implements two cross validation routines based on the Adaptive Kernel Smoothing Regression functions found in the "akrs" package.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.4)
+LinkingTo: Rcpp, akrs
+RoxygenNote: 7.1.0
